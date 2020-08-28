@@ -56,7 +56,7 @@ class FFMpegConan(ConanFile):
                        'bzlib': True,
                        'lzma': True,
                        'iconv': True,
-                       'freetype': True,
+                       'freetype': False,
                        'openjpeg': True,
                        'openh264': False,
                        'opus': False,
